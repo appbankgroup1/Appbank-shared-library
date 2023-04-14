@@ -4,7 +4,7 @@ def call(String repoUrl){
 	stages{
 		stage('1-clone'){
 			steps{
-				echo "we are Appbank Group 1 Engineers"
+				echo "we are Appbank Group 1 Engineer"
 			}
 		}
 		stage('2-Parallelpipeline'){
